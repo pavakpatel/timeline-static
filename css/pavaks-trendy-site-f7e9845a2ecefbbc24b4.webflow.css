@@ -360,12 +360,7 @@ body {
 .new-section.full._2 {
   z-index: 11;
   height: 100vh;
-  background-color: #061c30;
-  background-image: url('../images/GettyImages-1192409094.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: transparent;
 }
 
 .text-6em {
@@ -534,6 +529,9 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-image: url('../images/GettyImages-1192409094.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
 .image-right {
@@ -672,6 +670,11 @@ body {
     padding-right: 16px;
   }
 
+  .timeline-month.left.long {
+    width: auto;
+    padding-right: 20px;
+  }
+
   .timeline-month.right {
     width: auto;
     padding-top: 8px;
@@ -688,20 +691,26 @@ body {
     font-size: 12px;
   }
 
+  .timeline-item {
+    height: 200px;
+  }
+
   .timeline-text {
-    margin-left: auto;
+    margin-left: 20px;
+    font-size: 1em;
   }
 
   .timeline-text.left {
-    margin-right: auto;
+    margin-right: 20px;
   }
 
   .timeline-text.right {
-    margin-left: auto;
+    margin-left: 20px;
   }
 
   .new-section.full._2 {
     height: 74vh;
+    max-height: 50vh;
     min-height: 0px;
   }
 
@@ -709,27 +718,52 @@ body {
     font-size: 4.5em;
   }
 
+  .dot-nuke {
+    left: -14.5px;
+    top: -3.3%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .timeline-track {
+    width: 10px;
+  }
+
+  .image-right {
+    height: 180px;
+  }
+
   .grid {
-    width: auto;
+    width: 100%;
     padding-right: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    justify-items: stretch;
+    justify-items: center;
     border-left: 1px none #000;
+  }
+
+  .dot-pol {
+    right: -5%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .dot-pol._1 {
+    right: -6.5%;
   }
 
   .heading-4 {
     width: auto;
-    margin-left: 70px;
+    margin-left: auto;
     padding-left: 0px;
     border-left-color: transparent;
     font-size: 20px;
   }
 
   .heading-5 {
-    margin-right: 70px;
+    margin-right: auto;
     padding-right: 0px;
     border-left: 1px solid transparent;
     border-right-color: transparent;
