@@ -509,7 +509,7 @@ body {
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
-.div-block {
+.image-divider {
   position: -webkit-sticky;
   position: sticky;
   display: -webkit-box;
@@ -729,11 +729,16 @@ body {
 
   .timeline-track {
     width: 10px;
-    height: 220vh;
+    height: 2000px;
   }
 
   .timeline-track._2 {
     height: 241vh;
+  }
+
+  .page-wrapper {
+    overflow: hidden;
+    height: 5800px;
   }
 
   .image-right {
@@ -766,7 +771,7 @@ body {
     margin-left: auto;
     padding-left: 0px;
     border-left-color: transparent;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .heading-5 {
@@ -774,7 +779,7 @@ body {
     padding-right: 0px;
     border-left: 1px solid transparent;
     border-right-color: transparent;
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
