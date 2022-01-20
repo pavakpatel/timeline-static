@@ -1011,10 +1011,14 @@ body {
   }
 
   .dot-nuke {
-    left: -21.5px;
+    left: -24.5px;
     top: -7.3%;
     width: 25px;
     height: 25px;
+  }
+
+  .dot-nuke.long {
+    top: -2.3%;
   }
 
   .bigger-wrapper {
