@@ -729,6 +729,11 @@ body {
 
   .timeline-track {
     width: 10px;
+    height: 220vh;
+  }
+
+  .timeline-track._2 {
+    height: 241vh;
   }
 
   .image-right {
