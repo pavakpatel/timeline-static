@@ -600,7 +600,7 @@ body {
   font-family: Lato, sans-serif;
   color: #7e7e7e;
   font-size: 25px;
-  text-align: left;
+  text-align: right;
 }
 
 .heading-5 {
@@ -613,7 +613,7 @@ body {
   font-family: Lato, sans-serif;
   color: #00c57d;
   font-size: 25px;
-  text-align: right;
+  text-align: left;
 }
 
 .section {
@@ -777,11 +777,11 @@ body {
 
   .timeline-track {
     width: 10px;
-    height: 2000px;
+    height: 2075px;
   }
 
   .timeline-track._2 {
-    height: 241vh;
+    height: 2355px;
   }
 
   .timeline-wrapper {
@@ -921,10 +921,20 @@ body {
 
   .timeline-month.left {
     width: auto;
+    padding-top: 9px;
+    padding-right: 0px;
+    font-size: 1.2em;
+  }
+
+  .timeline-month.left.long {
+    padding-right: 0px;
+    font-size: 1.2em;
   }
 
   .timeline-month.right {
     width: auto;
+    padding-left: 1px;
+    font-size: 1.2em;
   }
 
   .container {
@@ -941,17 +951,25 @@ body {
     justify-content: flex-end;
   }
 
+  .bigger-text-wrapper {
+    top: -141px;
+  }
+
   .jumbo-text {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .timeline-item {
     height: 150px;
   }
 
+  .timeline-item.large {
+    height: 400px;
+  }
+
   .timeline-content-wrapper {
     grid-column-gap: 8px;
-    grid-row-gap: 15vh;
+    grid-row-gap: 15px;
   }
 
   .timeline-text {
@@ -966,6 +984,10 @@ body {
 
   .timeline-text.right {
     margin-left: auto;
+    font-size: 1em;
+  }
+
+  .timeline-text.small {
     font-size: 1em;
   }
 
@@ -988,6 +1010,13 @@ body {
     font-size: 1em;
   }
 
+  .dot-nuke {
+    left: -21.5px;
+    top: -7.3%;
+    width: 25px;
+    height: 25px;
+  }
+
   .bigger-wrapper {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -995,6 +1024,11 @@ body {
 
   .timeline-track {
     width: 7px;
+    height: 1925px;
+  }
+
+  .timeline-track._2 {
+    height: 2325px;
   }
 
   .navigation {
@@ -1011,6 +1045,16 @@ body {
 
   .timeline-wrapper {
     width: 93%;
+  }
+
+  .image-divider {
+    height: 250px;
+  }
+
+  .image-right {
+    width: auto;
+    height: auto;
+    margin-left: auto;
   }
 
   .grid {
@@ -1031,6 +1075,13 @@ body {
     text-align: center;
   }
 
+  .dot-pol {
+    top: -7%;
+    right: -20%;
+    width: 25px;
+    height: 25px;
+  }
+
   .frosty {
     width: auto;
   }
@@ -1038,8 +1089,9 @@ body {
   .heading-4 {
     margin-right: auto;
     margin-left: auto;
+    padding-right: 10px;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 20px;
     text-align: right;
   }
@@ -1048,9 +1100,16 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-right: 10px;
-    font-size: 12px;
+    padding-left: 10px;
+    font-size: 18px;
     line-height: 20px;
     text-align: left;
+  }
+
+  .text-span {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 700;
   }
 }
 
