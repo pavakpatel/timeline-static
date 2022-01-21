@@ -993,7 +993,9 @@ body {
     padding-right: 30px;
     padding-left: 0px;
     border-left-color: transparent;
+    font-family: Lato, sans-serif;
     font-size: 30px;
+    font-weight: 900;
   }
 
   .heading-5 {
@@ -1033,13 +1035,20 @@ body {
   }
 
   .line-div-top.blue {
-    left: 333px;
+    left: 334px;
     top: -100px;
     height: 108px;
     margin-bottom: -51px;
     border-top-style: solid;
     border-top-color: #00558c;
     border-bottom-style: none;
+  }
+
+  .line-div-top.blue._1 {
+    left: -1px;
+    top: -61px;
+    border-top-color: #c00f0f;
+    border-bottom-style: solid;
   }
 
   .image {
@@ -1109,20 +1118,39 @@ body {
   }
 
   .timeline-month.left {
-    width: auto;
+    left: 12px;
+    bottom: 13px;
+    width: 90px;
+    margin-bottom: 0px;
     padding-top: 9px;
     padding-right: 0px;
     font-size: 1.2em;
   }
 
   .timeline-month.left.long {
+    bottom: 5px;
+    width: 150px;
     padding-right: 0px;
     font-size: 1.2em;
   }
 
+  .timeline-month.left.long._1 {
+    bottom: 12px;
+  }
+
+  .timeline-month.left.large-2x {
+    left: -88px;
+    bottom: 16px;
+  }
+
+  .timeline-month.left._1 {
+    bottom: 6px;
+  }
+
   .timeline-month.right {
-    width: auto;
-    padding-left: 1px;
+    left: -12px;
+    width: 90px;
+    padding-left: 0px;
     font-size: 1.2em;
   }
 
@@ -1152,7 +1180,19 @@ body {
     height: 150px;
   }
 
+  .timeline-item.left {
+    padding-right: 0px;
+  }
+
+  .timeline-item.left.large-2x {
+    height: 400px;
+  }
+
   .timeline-item.large {
+    height: 300px;
+  }
+
+  .timeline-item.large-2x {
     height: 400px;
   }
 
@@ -1163,12 +1203,18 @@ body {
 
   .timeline-text {
     margin-left: auto;
+    padding-left: 9px;
     font-size: 1em;
   }
 
   .timeline-text.left {
+    left: -8px;
     margin-right: 0px;
     font-size: 1em;
+  }
+
+  .timeline-text.left.large-2x {
+    left: -68px;
   }
 
   .timeline-text.right {
@@ -1200,8 +1246,8 @@ body {
   }
 
   .dot-nuke {
-    left: -24.5px;
-    top: -7.3%;
+    left: -29px;
+    top: -5.3%;
     width: 25px;
     height: 25px;
   }
@@ -1217,11 +1263,11 @@ body {
 
   .timeline-track {
     width: 7px;
-    height: 1925px;
+    height: 2400px;
   }
 
   .timeline-track._2 {
-    height: 2325px;
+    height: 2520px;
   }
 
   .navigation {
@@ -1269,10 +1315,19 @@ body {
   }
 
   .dot-pol {
-    top: -7%;
-    right: -20%;
+    top: -16%;
+    right: -19.5%;
     width: 25px;
     height: 25px;
+  }
+
+  .dot-pol.large-2x {
+    left: -7px;
+    top: -10%;
+  }
+
+  .dot-pol.long {
+    right: -19%;
   }
 
   .frosty {
@@ -1303,6 +1358,20 @@ body {
     font-size: 18px;
     line-height: 1.3;
     font-weight: 700;
+  }
+
+  .line-div-top.blue {
+    left: 146px;
+    top: -199px;
+  }
+
+  .line-div-top.blue._1 {
+    border-top-style: none;
+  }
+
+  .image.large-2x {
+    left: -144px;
+    width: 300px;
   }
 }
 
