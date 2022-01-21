@@ -1048,6 +1048,7 @@ body {
     color: rgba(0, 0, 0, 0.6);
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
   }
 
   .heading-5 {
@@ -1059,6 +1060,7 @@ body {
     font-family: urw-din, sans-serif;
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
   }
 
   .body {
@@ -1309,6 +1311,10 @@ body {
     flex-wrap: nowrap;
   }
 
+  .timeline-item.left.semi-large {
+    height: 200px;
+  }
+
   .timeline-item.left.large-2x {
     height: 400px;
   }
@@ -1319,6 +1325,10 @@ body {
 
   .timeline-item.large-2x {
     height: 400px;
+  }
+
+  .timeline-item.semi-large {
+    height: 200px;
   }
 
   .text-center.relative {
@@ -1351,7 +1361,7 @@ body {
   .timeline-text.left.large-2x {
     position: relative;
     left: -93px;
-    top: 36px;
+    top: 22px;
     z-index: 6;
     max-width: 500px;
     margin-left: 16px;
@@ -1412,16 +1422,17 @@ body {
   .timeline-track {
     bottom: 74px;
     width: 3px;
-    height: 2400px;
+    height: 2450px;
   }
 
   .timeline-track._2 {
-    height: 2550px;
+    bottom: 138px;
+    height: 2800px;
   }
 
   .timeline-track.mini {
     left: -144px;
-    bottom: 36px;
+    bottom: 47px;
     z-index: 8;
     display: block;
   }
@@ -1485,7 +1496,7 @@ body {
 
   .dot-pol {
     top: -7%;
-    right: -20.5%;
+    right: -21.8%;
     width: 25px;
     height: 25px;
   }
@@ -1498,7 +1509,7 @@ body {
   }
 
   .dot-pol.long {
-    right: -22%;
+    right: -21.8%;
   }
 
   .frosty {
@@ -1538,6 +1549,10 @@ body {
     font-size: 18px;
     line-height: 1.3;
     font-weight: 700;
+  }
+
+  .textbox-administration {
+    font-size: 14px;
   }
 
   .trump-admin-box {
