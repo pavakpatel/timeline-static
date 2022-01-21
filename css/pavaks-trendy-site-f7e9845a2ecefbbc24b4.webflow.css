@@ -1311,6 +1311,10 @@ body {
     flex-wrap: nowrap;
   }
 
+  .timeline-item.left.large.semi {
+    height: 250px;
+  }
+
   .timeline-item.left.semi-large {
     height: 200px;
   }
@@ -1321,6 +1325,10 @@ body {
 
   .timeline-item.large {
     height: 430px;
+  }
+
+  .timeline-item.large.semi {
+    height: 250px;
   }
 
   .timeline-item.large-2x {
@@ -1422,7 +1430,7 @@ body {
   .timeline-track {
     bottom: 74px;
     width: 3px;
-    height: 2700px;
+    height: 2550px;
   }
 
   .timeline-track._2 {
