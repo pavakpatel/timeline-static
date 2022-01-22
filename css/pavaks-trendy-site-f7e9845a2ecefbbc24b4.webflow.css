@@ -799,7 +799,7 @@ body {
     width: auto;
     margin-bottom: 13px;
     padding-top: 8px;
-    padding-left: 36px;
+    padding-left: 39px;
     border-top-width: 2px;
     border-top-color: #00a72c;
     font-family: lato, sans-serif;
@@ -843,8 +843,24 @@ body {
   }
 
   .timeline-item {
-    height: 150px;
+    height: 110px;
     padding-bottom: 0px;
+  }
+
+  .timeline-item.right {
+    height: 110px;
+  }
+
+  .timeline-item.right._200h {
+    height: 200px;
+  }
+
+  .timeline-item.left {
+    height: 110px;
+  }
+
+  .timeline-item.left._150 {
+    height: 150px;
   }
 
   .timeline-item.left.large-2x {
@@ -854,11 +870,26 @@ body {
 
   .timeline-item.large {
     height: 280px;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .timeline-item.large-2x {
     height: 500px;
     padding-left: 0px;
+  }
+
+  .timeline-item._200h {
+    height: 200px;
+  }
+
+  .timeline-item._120 {
+    height: 150px;
+  }
+
+  .timeline-item._180h {
+    height: 180px;
   }
 
   .text-center.relative {
@@ -873,7 +904,7 @@ body {
   }
 
   .timeline-text {
-    margin-left: 30px;
+    margin-left: 33px;
     padding-bottom: 0px;
     font-family: lato, sans-serif;
     color: rgba(0, 0, 0, 0.6);
@@ -950,7 +981,7 @@ body {
   .timeline-track {
     bottom: 48px;
     width: 4px;
-    height: 2250px;
+    height: 1860px;
     border-radius: 20px;
     background-color: #e00014;
     font-size: 10px;
@@ -958,7 +989,7 @@ body {
 
   .timeline-track._2 {
     bottom: 92px;
-    height: 2300px;
+    height: 1800px;
     background-color: #00a3f3;
   }
 
@@ -987,7 +1018,7 @@ body {
     display: block;
     overflow: hidden;
     width: 750px;
-    height: 5000px;
+    height: 4200px;
     margin-top: 53px;
   }
 
@@ -1001,6 +1032,7 @@ body {
   }
 
   .image-right {
+    left: 6px;
     overflow: visible;
     height: 180px;
     margin-top: 6px;
@@ -1019,7 +1051,7 @@ body {
   }
 
   .dot-pol {
-    top: -11%;
+    top: -15%;
     right: -4.2%;
     width: 22px;
     height: 22px;
@@ -1038,10 +1070,15 @@ body {
     top: -6%;
   }
 
+  .dot-pol.long._1 {
+    top: -6%;
+    right: -4.5%;
+  }
+
   .heading-4 {
     width: auto;
     margin-left: auto;
-    padding-right: 30px;
+    padding-right: 33px;
     padding-left: 0px;
     border-left-color: transparent;
     font-family: urw-din, sans-serif;
@@ -1054,7 +1091,7 @@ body {
   .heading-5 {
     margin-right: auto;
     padding-right: 0px;
-    padding-left: 30px;
+    padding-left: 33px;
     border-left: 1px solid transparent;
     border-right-color: transparent;
     font-family: urw-din, sans-serif;
@@ -1305,6 +1342,7 @@ body {
   }
 
   .timeline-item.left {
+    height: 150px;
     padding-right: 0px;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
@@ -1335,8 +1373,12 @@ body {
     height: 400px;
   }
 
-  .timeline-item.semi-large {
-    height: 200px;
+  .timeline-item._200h {
+    height: 420px;
+  }
+
+  .timeline-item._180h {
+    height: 320px;
   }
 
   .text-center.relative {
@@ -1419,7 +1461,7 @@ body {
   }
 
   .dot-nuke._1 {
-    top: -1.3%;
+    top: -2.3%;
   }
 
   .bigger-wrapper {
@@ -1430,12 +1472,12 @@ body {
   .timeline-track {
     bottom: 74px;
     width: 3px;
-    height: 2550px;
+    height: 2320px;
   }
 
   .timeline-track._2 {
     bottom: 138px;
-    height: 2800px;
+    height: 2830px;
   }
 
   .timeline-track.mini {
@@ -1462,8 +1504,9 @@ body {
   }
 
   .page-wrapper {
+    overflow: hidden;
     width: 320px;
-    height: 5800px;
+    height: 5650px;
     max-width: 320px;
     min-width: 320px;
   }
@@ -1518,6 +1561,11 @@ body {
 
   .dot-pol.long {
     right: -21.8%;
+  }
+
+  .dot-pol.long._1 {
+    top: -4%;
+    right: -21.5%;
   }
 
   .frosty {
@@ -1622,6 +1670,17 @@ body {
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
     grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-f7c1b899-3ec9-fb84-e98e-a384d2bac1bd-3903ea3a {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
