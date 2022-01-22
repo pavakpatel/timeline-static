@@ -785,6 +785,7 @@ body {
 
   .timeline-month.left.large-2x {
     left: -109px;
+    bottom: -51px;
     padding-top: 0px;
     padding-right: 0px;
     border-top-style: none;
@@ -922,7 +923,7 @@ body {
 
   .timeline-text.left.large-2x {
     left: auto;
-    top: -14px;
+    top: 43px;
     margin-right: auto;
     padding-bottom: 43px;
     background-color: #fff;
@@ -995,7 +996,7 @@ body {
 
   .timeline-track.mini {
     left: -156px;
-    bottom: 59px;
+    bottom: 0px;
     width: 2px;
     height: 50px;
     background-color: #7e7e7e;
@@ -1062,8 +1063,8 @@ body {
   }
 
   .dot-pol.large-2x {
-    top: 19%;
-    right: 47.2%;
+    top: 31%;
+    right: 47%;
   }
 
   .dot-pol.long {
@@ -1208,7 +1209,7 @@ body {
   .image.large-2x {
     position: absolute;
     left: -99px;
-    top: 106px;
+    top: 162px;
     z-index: 3;
     width: 500px;
   }
