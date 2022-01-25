@@ -1040,7 +1040,7 @@ body {
   }
 
   .timeline-item.right._1 {
-    height: 50px;
+    height: 100px;
   }
 
   .timeline-item.right._2 {
@@ -1077,7 +1077,7 @@ body {
   }
 
   .timeline-item.large._350h {
-    height: 340px;
+    height: 370px;
   }
 
   .timeline-item.large-2x {
@@ -1145,8 +1145,13 @@ body {
     left: -33.8px;
   }
 
+  .timeline-track {
+    height: 1800px;
+  }
+
   .timeline-track._2 {
-    bottom: 86px;
+    bottom: 59px;
+    height: 1850px;
   }
 
   .timeline-track.mini {
@@ -1185,14 +1190,22 @@ body {
 
   .heading-4 {
     position: relative;
-    left: 23px;
+    left: 20px;
+    font-size: 25px;
     text-align: right;
+    white-space: nowrap;
   }
 
   .heading-5 {
     position: relative;
-    left: -21px;
+    left: -28px;
+    font-size: 25px;
     text-align: left;
+    white-space: nowrap;
+  }
+
+  .textbox-administration.blue {
+    bottom: -3px;
   }
 
   .image.large-2x {
@@ -1436,7 +1449,7 @@ body {
   }
 
   .dot-nuke {
-    left: -26.2px;
+    left: -24.2px;
     top: -9.3px;
     width: 20px;
     height: 20px;
@@ -1513,7 +1526,7 @@ body {
 
   .dot-pol {
     top: -9px;
-    right: -25.2px;
+    right: -24.2px;
     width: 20px;
     height: 20px;
   }
@@ -1528,7 +1541,7 @@ body {
 
   .heading-4 {
     position: relative;
-    left: -19px;
+    left: -15px;
     display: block;
     width: 100%;
     height: auto;
@@ -1537,7 +1550,7 @@ body {
     padding-right: 0px;
     padding-left: 0px;
     direction: ltr;
-    font-size: 12px;
+    font-size: 14.5px;
     line-height: 20px;
     text-align: right;
     text-transform: none;
@@ -1553,7 +1566,7 @@ body {
     margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 12px;
+    font-size: 14.5px;
     line-height: 20px;
     text-align: left;
     white-space: nowrap;
@@ -1561,6 +1574,7 @@ body {
 
   .textbox-administration {
     font-size: 12px;
+    font-weight: 400;
   }
 
   .trump-admin-box {
