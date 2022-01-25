@@ -643,7 +643,7 @@ body {
   }
 
   .timeline-item.right._1 {
-    height: 110px;
+    height: 125px;
   }
 
   .timeline-item.right._2 {
@@ -692,7 +692,7 @@ body {
   }
 
   .timeline-item.large._350h {
-    height: 410px;
+    height: 430px;
   }
 
   .timeline-item.large-2x {
@@ -801,7 +801,7 @@ body {
   }
 
   .timeline-track._2 {
-    bottom: 92px;
+    bottom: 61px;
     height: 1950px;
     background-color: #00a3f3;
   }
