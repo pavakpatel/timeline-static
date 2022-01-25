@@ -1145,6 +1145,10 @@ body {
     left: -34px;
   }
 
+  .timeline-track._2 {
+    bottom: 86px;
+  }
+
   .timeline-track.mini {
     left: 23px;
     bottom: 102px;
