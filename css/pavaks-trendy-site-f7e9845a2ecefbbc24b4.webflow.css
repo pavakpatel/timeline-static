@@ -621,7 +621,7 @@ body {
   }
 
   .timeline-month.right._1 {
-    left: -7px;
+    left: -10px;
     padding-left: 27px;
   }
 
@@ -838,7 +838,7 @@ body {
     display: block;
     overflow: hidden;
     width: 750px;
-    height: 4400px;
+    height: 4250px;
     margin-top: 53px;
   }
 
@@ -1477,7 +1477,7 @@ body {
   .page-wrapper {
     overflow: hidden;
     width: 350px;
-    height: 4300px;
+    height: 4250px;
     max-width: 400px;
     min-width: 320px;
   }
