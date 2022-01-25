@@ -1142,7 +1142,7 @@ body {
   }
 
   .dot-nuke {
-    left: -34px;
+    left: -33.8px;
   }
 
   .timeline-track._2 {
@@ -1174,7 +1174,7 @@ body {
   }
 
   .dot-pol {
-    right: -34px;
+    right: -33.8px;
   }
 
   .dot-pol.large-2x {
@@ -1184,10 +1184,14 @@ body {
   }
 
   .heading-4 {
-    text-align: left;
+    position: relative;
+    left: 23px;
+    text-align: right;
   }
 
   .heading-5 {
+    position: relative;
+    left: -21px;
     text-align: left;
   }
 
@@ -1432,7 +1436,7 @@ body {
   }
 
   .dot-nuke {
-    left: -24px;
+    left: -26.2px;
     top: -9.3px;
     width: 20px;
     height: 20px;
@@ -1450,11 +1454,12 @@ body {
   }
 
   .timeline-track.mini {
-    left: 15px;
+    left: 15.2px;
     top: -67px;
     bottom: 9px;
     z-index: 8;
     display: block;
+    width: 1px;
   }
 
   .menu-link-wrapper._1 {
@@ -1508,14 +1513,14 @@ body {
 
   .dot-pol {
     top: -9px;
-    right: -24px;
+    right: -25.2px;
     width: 20px;
     height: 20px;
   }
 
   .dot-pol.large-2x {
     position: relative;
-    left: 24.2px;
+    left: 25px;
     top: -3%;
     right: 0px;
     z-index: 10;
