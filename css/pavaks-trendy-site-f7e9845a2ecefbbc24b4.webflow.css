@@ -621,7 +621,7 @@ body {
   }
 
   .timeline-month.right._1 {
-    left: -5px;
+    left: -7px;
     padding-left: 27px;
   }
 
@@ -741,7 +741,7 @@ body {
 
   .text-center.relative {
     top: auto;
-    height: 150px;
+    height: 120px;
   }
 
   .timeline-content-wrapper {
@@ -885,7 +885,7 @@ body {
     color: rgba(0, 0, 0, 0.6);
     font-size: 30px;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
   }
 
   .heading-5 {
@@ -1191,6 +1191,14 @@ body {
     margin-left: auto;
   }
 
+  .heading-4 {
+    text-align: left;
+  }
+
+  .heading-5 {
+    text-align: left;
+  }
+
   .image.large-2x {
     left: -22px;
     top: 54px;
@@ -1207,7 +1215,7 @@ body {
     left: 16px;
     bottom: -1px;
     width: 90px;
-    margin-bottom: 0px;
+    margin-bottom: 7px;
     padding-top: 9px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -1478,7 +1486,7 @@ body {
     left: 2px;
     width: 120px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 6px;
     margin-left: 3px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
@@ -1492,11 +1500,11 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    justify-items: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     -webkit-align-content: start;
     -ms-flex-line-pack: start;
     align-content: start;
@@ -1529,13 +1537,14 @@ body {
     position: relative;
     left: -19px;
     display: block;
+    width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
     direction: ltr;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 20px;
     text-align: right;
     text-transform: none;
@@ -1551,14 +1560,14 @@ body {
     margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 20px;
     text-align: left;
     white-space: nowrap;
   }
 
   .textbox-administration {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .trump-admin-box {
@@ -1639,6 +1648,8 @@ body {
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
   }
 
   #w-node-b892f79a-963e-7a2a-4b8e-84f386ae7899-01c6bcf3 {
