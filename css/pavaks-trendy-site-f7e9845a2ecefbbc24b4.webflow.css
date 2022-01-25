@@ -437,13 +437,6 @@ body {
   opacity: 1;
 }
 
-.frosty {
-  width: 50vw;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: transparent;
-}
-
 .heading-4 {
   margin-top: auto;
   margin-bottom: auto;
@@ -1186,11 +1179,6 @@ body {
     right: 0px;
   }
 
-  .frosty {
-    width: 100vw;
-    margin-left: auto;
-  }
-
   .heading-4 {
     text-align: left;
   }
@@ -1527,10 +1515,6 @@ body {
     top: -3%;
     right: 0px;
     z-index: 10;
-  }
-
-  .frosty {
-    width: auto;
   }
 
   .heading-4 {
