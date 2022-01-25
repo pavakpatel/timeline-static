@@ -1283,7 +1283,7 @@ body {
   }
 
   .timeline-item.right._1 {
-    height: 35px;
+    height: 180px;
   }
 
   .timeline-item.right._2 {
@@ -1339,7 +1339,7 @@ body {
   }
 
   .timeline-item.large._350h {
-    height: 320px;
+    height: 450px;
   }
 
   .timeline-item.large-2x {
@@ -1463,7 +1463,7 @@ body {
 
   .timeline-track._2 {
     bottom: 86px;
-    height: 2000px;
+    height: 2100px;
   }
 
   .timeline-track.mini {
@@ -1487,7 +1487,7 @@ body {
   .page-wrapper {
     overflow: hidden;
     width: 350px;
-    height: 4250px;
+    height: 4300px;
     max-width: 400px;
     min-width: 320px;
   }
