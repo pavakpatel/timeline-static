@@ -643,7 +643,7 @@ body {
   }
 
   .timeline-item.right._1 {
-    height: 125px;
+    height: 145px;
   }
 
   .timeline-item.right._2 {
@@ -692,7 +692,7 @@ body {
   }
 
   .timeline-item.large._350h {
-    height: 430px;
+    height: 485px;
   }
 
   .timeline-item.large-2x {
@@ -831,7 +831,7 @@ body {
     display: block;
     overflow: hidden;
     width: 750px;
-    height: 4250px;
+    height: 4300px;
     margin-top: 53px;
   }
 
@@ -1339,7 +1339,7 @@ body {
   }
 
   .timeline-item.large._350h {
-    height: 450px;
+    height: 465px;
   }
 
   .timeline-item.large-2x {
