@@ -695,10 +695,6 @@ body {
     height: 400px;
   }
 
-  .timeline-item.large.semi._101 {
-    height: 400px;
-  }
-
   .timeline-item.large._350h {
     height: 485px;
   }
@@ -1092,10 +1088,6 @@ body {
     height: 305px;
   }
 
-  .timeline-item.large.semi._101 {
-    height: 305px;
-  }
-
   .timeline-item.large._350h {
     height: 370px;
   }
@@ -1266,7 +1258,7 @@ body {
 
   .timeline-month.left.large-2x {
     left: 59px;
-    top: -31px;
+    top: 15px;
     bottom: auto;
     text-align: center;
   }
@@ -1312,7 +1304,7 @@ body {
   }
 
   .timeline-item.right._2 {
-    height: 135px;
+    height: 125px;
   }
 
   .timeline-item.right._101 {
@@ -1320,11 +1312,11 @@ body {
   }
 
   .timeline-item.left._10 {
-    height: 60px;
+    height: 50px;
   }
 
   .timeline-item.left._11 {
-    height: 100px;
+    height: 90px;
   }
 
   .timeline-item._2 {
@@ -1351,10 +1343,6 @@ body {
     height: 110px;
   }
 
-  .timeline-item.left._150._12 {
-    height: 80px;
-  }
-
   .timeline-item.left.large-2x {
     height: 400px;
   }
@@ -1368,14 +1356,6 @@ body {
   }
 
   .timeline-item.large.semi._1 {
-    height: 220px;
-  }
-
-  .timeline-item.large.semi._1 {
-    height: 180px;
-  }
-
-  .timeline-item.large.semi._101 {
     height: 220px;
   }
 
@@ -1406,10 +1386,6 @@ body {
 
   .timeline-item._180h._90 {
     height: 240px;
-  }
-
-  .timeline-item._180h._12 {
-    height: 235px;
   }
 
   .timeline-item._1 {
@@ -1459,7 +1435,7 @@ body {
   .timeline-text.left.large-2x {
     position: relative;
     left: 76px;
-    top: -42px;
+    top: -2px;
     z-index: 7;
     max-width: 500px;
     margin-left: 16px;
@@ -1517,7 +1493,7 @@ body {
 
   .timeline-track.mini {
     left: 15.2px;
-    top: -111px;
+    top: -67px;
     bottom: 9px;
     z-index: 8;
     display: block;
@@ -1583,7 +1559,7 @@ body {
   .dot-pol.large-2x {
     position: relative;
     left: 25px;
-    top: -12%;
+    top: -3%;
     right: 0px;
     z-index: 10;
   }
@@ -1641,7 +1617,7 @@ body {
 
   .image.large-2x {
     left: 3px;
-    top: 104px;
+    top: 133px;
     z-index: 9;
     width: 300px;
   }
