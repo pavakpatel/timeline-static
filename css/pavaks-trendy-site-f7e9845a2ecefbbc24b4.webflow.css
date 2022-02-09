@@ -654,6 +654,10 @@ body {
     height: 145px;
   }
 
+  .timeline-item.right._201 {
+    height: 160px;
+  }
+
   .timeline-item.left._10 {
     height: 115px;
   }
@@ -806,7 +810,7 @@ body {
 
   .timeline-track._2 {
     bottom: 61px;
-    height: 1950px;
+    height: 2000px;
     background-color: #00a3f3;
   }
 
@@ -1057,6 +1061,10 @@ body {
 
   .timeline-item.right._101 {
     height: 120px;
+  }
+
+  .timeline-item.right._201 {
+    height: 160px;
   }
 
   .timeline-item.left._10 {
@@ -1311,8 +1319,12 @@ body {
     height: 180px;
   }
 
+  .timeline-item.right._201 {
+    height: 135px;
+  }
+
   .timeline-item.left._10 {
-    height: 50px;
+    height: 60px;
   }
 
   .timeline-item.left._11 {
@@ -1359,6 +1371,10 @@ body {
     height: 220px;
   }
 
+  .timeline-item.large.semi._201 {
+    height: 180px;
+  }
+
   .timeline-item.large._350h {
     height: 465px;
   }
@@ -1388,6 +1404,10 @@ body {
     height: 240px;
   }
 
+  .timeline-item._180h._201 {
+    height: 225px;
+  }
+
   .timeline-item._1 {
     height: 110px;
   }
@@ -1402,7 +1422,7 @@ body {
 
   .timeline-item._14 {
     width: auto;
-    height: 230px;
+    height: 240px;
   }
 
   .text-center.relative {
