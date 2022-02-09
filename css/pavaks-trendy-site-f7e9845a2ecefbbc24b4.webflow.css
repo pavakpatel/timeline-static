@@ -650,6 +650,10 @@ body {
     height: 160px;
   }
 
+  .timeline-item.right._101 {
+    height: 145px;
+  }
+
   .timeline-item.left._10 {
     height: 115px;
   }
@@ -688,6 +692,10 @@ body {
   }
 
   .timeline-item.large.semi._1 {
+    height: 400px;
+  }
+
+  .timeline-item.large.semi._101 {
     height: 400px;
   }
 
@@ -1031,6 +1039,10 @@ body {
     padding-left: 15px;
   }
 
+  .container.flex-verticle {
+    padding-top: 112px;
+  }
+
   .timeline-item {
     height: 130px;
   }
@@ -1045,6 +1057,10 @@ body {
 
   .timeline-item.right._2 {
     height: 160px;
+  }
+
+  .timeline-item.right._101 {
+    height: 120px;
   }
 
   .timeline-item.left._10 {
@@ -1076,8 +1092,16 @@ body {
     height: 305px;
   }
 
+  .timeline-item.large.semi._101 {
+    height: 305px;
+  }
+
   .timeline-item.large._350h {
     height: 370px;
+  }
+
+  .timeline-item.large._350h._1 {
+    height: 420px;
   }
 
   .timeline-item.large-2x {
@@ -1242,7 +1266,7 @@ body {
 
   .timeline-month.left.large-2x {
     left: 59px;
-    top: 15px;
+    top: -31px;
     bottom: auto;
     text-align: center;
   }
@@ -1266,6 +1290,7 @@ body {
   }
 
   .container.flex-verticle {
+    padding-top: 0px;
     padding-right: 10px;
     padding-left: 10px;
     -webkit-box-pack: end;
@@ -1287,15 +1312,19 @@ body {
   }
 
   .timeline-item.right._2 {
-    height: 125px;
+    height: 135px;
+  }
+
+  .timeline-item.right._101 {
+    height: 180px;
   }
 
   .timeline-item.left._10 {
-    height: 50px;
+    height: 60px;
   }
 
   .timeline-item.left._11 {
-    height: 90px;
+    height: 100px;
   }
 
   .timeline-item._2 {
@@ -1322,6 +1351,10 @@ body {
     height: 110px;
   }
 
+  .timeline-item.left._150._12 {
+    height: 80px;
+  }
+
   .timeline-item.left.large-2x {
     height: 400px;
   }
@@ -1338,8 +1371,20 @@ body {
     height: 220px;
   }
 
+  .timeline-item.large.semi._1 {
+    height: 180px;
+  }
+
+  .timeline-item.large.semi._101 {
+    height: 220px;
+  }
+
   .timeline-item.large._350h {
     height: 465px;
+  }
+
+  .timeline-item.large._350h._1 {
+    height: 470px;
   }
 
   .timeline-item.large-2x {
@@ -1361,6 +1406,10 @@ body {
 
   .timeline-item._180h._90 {
     height: 240px;
+  }
+
+  .timeline-item._180h._12 {
+    height: 235px;
   }
 
   .timeline-item._1 {
@@ -1410,7 +1459,7 @@ body {
   .timeline-text.left.large-2x {
     position: relative;
     left: 76px;
-    top: -2px;
+    top: -42px;
     z-index: 7;
     max-width: 500px;
     margin-left: 16px;
@@ -1468,7 +1517,7 @@ body {
 
   .timeline-track.mini {
     left: 15.2px;
-    top: -67px;
+    top: -111px;
     bottom: 9px;
     z-index: 8;
     display: block;
@@ -1534,7 +1583,7 @@ body {
   .dot-pol.large-2x {
     position: relative;
     left: 25px;
-    top: -3%;
+    top: -12%;
     right: 0px;
     z-index: 10;
   }
@@ -1592,7 +1641,7 @@ body {
 
   .image.large-2x {
     left: 3px;
-    top: 133px;
+    top: 104px;
     z-index: 9;
     width: 300px;
   }
