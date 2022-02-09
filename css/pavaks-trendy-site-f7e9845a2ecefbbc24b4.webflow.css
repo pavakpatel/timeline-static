@@ -578,7 +578,7 @@ body {
   }
 
   .timeline-month.left.long {
-    left: 0px;
+    left: -1px;
     bottom: 6px;
     width: 190px;
     padding-right: 20px;
