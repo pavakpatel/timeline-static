@@ -1287,7 +1287,7 @@ body {
   }
 
   .timeline-item {
-    height: 150px;
+    height: 130px;
   }
 
   .timeline-item.right {
@@ -1335,7 +1335,7 @@ body {
   }
 
   .timeline-item.left._150 {
-    height: 110px;
+    height: 105px;
   }
 
   .timeline-item.left.large-2x {
@@ -1355,7 +1355,7 @@ body {
   }
 
   .timeline-item.large._350h {
-    height: 350px;
+    height: 450px;
   }
 
   .timeline-item.large-2x {
