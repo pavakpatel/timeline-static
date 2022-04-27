@@ -613,11 +613,6 @@ body {
     font-size: 1.5em;
   }
 
-  .timeline-month.right._1 {
-    left: -10px;
-    padding-left: 27px;
-  }
-
   .footer-button {
     padding: 11px 14px;
   }
@@ -640,10 +635,6 @@ body {
 
   .timeline-item.right {
     height: 130px;
-  }
-
-  .timeline-item.right._1 {
-    height: 145px;
   }
 
   .timeline-item.right._2 {
@@ -1030,11 +1021,6 @@ body {
     font-size: 1.2em;
   }
 
-  .timeline-month.right._1 {
-    left: -17px;
-    padding-left: 0px;
-  }
-
   .timeline-month.right {
     padding-left: 15px;
   }
@@ -1049,10 +1035,6 @@ body {
 
   .timeline-item.right {
     height: 130px;
-  }
-
-  .timeline-item.right._1 {
-    height: 100px;
   }
 
   .timeline-item.right._2 {
@@ -1279,11 +1261,6 @@ body {
     font-size: 1.2em;
   }
 
-  .timeline-month.right._1 {
-    left: -14px;
-    padding-left: 0px;
-  }
-
   .container {
     padding-right: 20px;
     padding-left: 20px;
@@ -1305,10 +1282,6 @@ body {
 
   .timeline-item.right {
     height: 100px;
-  }
-
-  .timeline-item.right._1 {
-    height: 180px;
   }
 
   .timeline-item.right._2 {
